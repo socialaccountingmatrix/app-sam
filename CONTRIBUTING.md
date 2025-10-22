@@ -11,35 +11,37 @@ Thank you for your interest in contributing to this project! Please follow these
    ```bash
    git checkout -b feature/short-description
    ```
-- Branch name convention:
-```bash
-type/short-description
-```
-- type can be one of:
- - feature → new feature
- - fix → bug fix
- - docs → documentation changes
- - chore → other maintenance tasks
+   - Branch name convention:
+      ```bash
+      type/short-description
+      ```
+      - type can be one of:
+         - feature → new feature
+         - fix → bug fix
+         - docs → documentation changes
+         - chore → other maintenance tasks
 
-- short-description: lowercase, hyphen-separated, concise description of your work
-Example: feature/add-login-form
+      - short-description: lowercase, hyphen-separated, concise description of your work
+         Example: feature/add-login-form
 
 3. **Make your changes**
-Follow the ESLint + Prettier code style.
-Ensure your code is clean and readable.
+   Follow the ESLint + Prettier code style. 
+   Ensure your code is clean and readable.
 
 4. **Commit your changes**
 ```bash
 git commit -m "type(scope): short description"
 ```
-- Commit message convention (Conventional Commits):
-    - type(scope): short description
-        - type: same as branch type (feat, fix, docs, chore)
-        - scope (optional): the module or part of the app affected
-        - short description: brief summary of changes
-Examples:
-fix(ui): correct button alignment on dashboard
-docs: update contributing guidelines
+   - Commit message convention (Conventional Commits):
+      - type(scope): short description
+         - type: same as branch type (feat, fix, docs, chore)
+         - scope (optional): the module or part of the app affected
+         - short description: brief summary of changes
+   Examples:
+   ```bash
+   fix(ui): correct button alignment on dashboard
+   docs: update contributing guidelines
+   ```
 
 5. **Push and create a Pull Request**
 ```bash
