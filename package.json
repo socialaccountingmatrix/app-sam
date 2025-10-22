@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://socialaccountingmatrix.github.io/app-sam",
-   "scripts": {
+  "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",

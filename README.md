@@ -7,43 +7,52 @@
 ## 🚀 Features
 
 ### ✅ Current Features
-- Spreadsheet-like interface for creating and editing SAMs   
-- Row and column balancing tools  
+
+- Spreadsheet-like interface for creating and editing SAMs
+- Row and column balancing tools
 
 ### 🛠️ Planned / Upcoming Features
-- Import and export data (CSV, Excel, JSON) 
-- Interactive visualization of economic linkages  
-- Ready for integration with CGE (Computable General Equilibrium) or input-output models  
-- Version tracking and undo/redo support  
+
+- Import and export data (CSV, Excel, JSON)
+- Interactive visualization of economic linkages
+- Ready for integration with CGE (Computable General Equilibrium) or input-output models
+- Version tracking and undo/redo support
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Note:** Currently, App-SAM is a **completely frontend-based application**. 
+**Note:** Currently, App-SAM is a **completely frontend-based application**.
 
-- **Frontend:** React + Vite  
-- **Spreadsheet / Data Grid:** FortuneSheet  
+- **Frontend:** React + Vite
+- **Spreadsheet / Data Grid:** FortuneSheet
 - **State Management:** Redux
 
 ---
 
 ## 💻 Installation
 
-1. Clone the repository:  
+1. Clone the repository:
+
 ```bash
 git clone https://github.com/socialaccountingmatrix/app-sam.git
 cd app-sam
 ```
+
 2. Install Dependencies
+
 ```bash
 npm install
 ```
+
 3. Run dev server
+
 ```bash
 npm run dev
 ```
+
 4. Build for production
+
 ```bash
 npm run build
 ```
