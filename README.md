@@ -1,16 +1,49 @@
-# React + Vite
+# App-SAM
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**App-SAM** is an open-source React application that allows economists, researchers, and data analysts to **build, edit, and visualize Social Accounting Matrices (SAM)** interactively. It aims to provide a user-friendly platform for macroeconomic modeling, policy analysis, and data exploration.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+### ✅ Current Features
+- Spreadsheet-like interface for creating and editing SAMs   
+- Row and column balancing tools  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🛠️ Planned / Upcoming Features
+- Import and export data (CSV, Excel, JSON) 
+- Interactive visualization of economic linkages  
+- Ready for integration with CGE (Computable General Equilibrium) or input-output models  
+- Version tracking and undo/redo support  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+**Note:** Currently, App-SAM is a **completely frontend-based application**. 
+
+- **Frontend:** React + Vite  
+- **Spreadsheet / Data Grid:** FortuneSheet  
+- **State Management:** Redux
+
+---
+
+## 💻 Installation
+
+1. Clone the repository:  
+```bash
+git clone https://github.com/socialaccountingmatrix/app-sam.git
+cd app-sam
+```
+2. Install Dependencies
+```bash
+npm install
+```
+3. Run dev server
+```bash
+npm run dev
+```
+4. Build for production
+```bash
+npm run build
+```
