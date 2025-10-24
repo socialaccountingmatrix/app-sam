@@ -3,10 +3,15 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://socialaccountingmatrix.github.io/app-sam",
+  "author": "socialaccountingmatrix.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/socialaccountingmatrix/app-sam.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "format": "prettier --write .",
     "preview": "vite preview",
     "predeploy": "npm run build",
@@ -33,5 +38,6 @@
   },
   "overrides": {
     "vite": "npm:rolldown-vite@7.1.14"
-  }
+  },
+  "license": "MIT"
 }

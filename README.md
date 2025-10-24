@@ -27,6 +27,7 @@
 - **Frontend:** React + Vite
 - **Spreadsheet / Data Grid:** FortuneSheet
 - **State Management:** Redux
+- **Styling:** Tailwind CSS
 
 ---
 
@@ -40,6 +41,15 @@ cd app-sam
 ```
 
 2. Install Dependencies
+
+Make sure you are using **Node.js version 20**.
+
+```bash
+node -v
+# Should output v20.x.x
+```
+
+If it is as expected:
 
 ```bash
 npm install
