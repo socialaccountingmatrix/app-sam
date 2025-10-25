@@ -1,6 +1,6 @@
 /**
  * Represents a complete Social Accounting Matrix (SAM).
- * 
+ *
  * Each SAMData object is self-contained and includes:
  *  - A unique identifier (samKey)
  *  - Creation and modification timestamps (createdAt, modifiedAt)
@@ -17,9 +17,9 @@ export interface SAMData {
   name?: string;
   description?: string;
   generationStatus?: 'pending' | 'completed' | 'failed';
-  SAM?: { [key: string]: any };
-  SAMScratchData?: { [key: string]: any };
-  [key: string]: any;
+  SAM?: { [key: string]: unknown };
+  SAMScratchData?: { [key: string]: unknown };
+  [key: string]: unknown;
 }
 
 /**
