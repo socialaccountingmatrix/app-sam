@@ -1,6 +1,9 @@
 {
   "name": "app-sam",
   "version": "0.0.0",
+  "engines": {
+    "node": ">=20.0.0 <21.0.0"
+  },
   "type": "module",
   "homepage": "https://socialaccountingmatrix.github.io/app-sam",
   "author": "socialaccountingmatrix.org",

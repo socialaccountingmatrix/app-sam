@@ -1,45 +1,28 @@
 {
-  // Visit https://aka.ms/tsconfig to read more about this file
+  // -----------------------------------------------------------
+  // TypeScript Configuration File
+  //
+  // This file tells TypeScript how to compile the project’s .ts
+  // and .tsx files into JavaScript. TypeScript automatically
+  // detects this file if placed in the project root.
+  // It is necessary for:
+  // 1. Enabling JSX support for React components.
+  // 2. Applying strict type checking to catch errors early.
+  // 3. Specifying module resolution and interoperability with Node.js.
+  // 4. Ensuring consistent file naming and skipping unnecessary library checks.
+  //
+  // Without this file, TypeScript would use default settings,
+  // which may not work correctly with React, Vite, or modern ES modules.
+  // -----------------------------------------------------------
   "compilerOptions": {
-    // File Layout
-    // "rootDir": "./src",
-    // "outDir": "./dist",
-
-    // Environment Settings
-    // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
-    "target": "esnext",
-    "types": [],
-    // For nodejs:
-    // "lib": ["esnext"],
-    // "types": ["node"],
-    // and npm install -D @types/node
-
-    // Other Outputs
-    "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
-
-    // Stricter Typechecking Options
-    "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true,
-
-    // Style Options
-    // "noImplicitReturns": true,
-    // "noImplicitOverride": true,
-    // "noUnusedLocals": true,
-    // "noUnusedParameters": true,
-    // "noFallthroughCasesInSwitch": true,
-    // "noPropertyAccessFromIndexSignature": true,
-
-    // Recommended Options
-    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
     "jsx": "react-jsx",
-    "verbatimModuleSyntax": true,
-    "isolatedModules": true,
-    "noUncheckedSideEffectImports": true,
-    "moduleDetection": "force",
-    "skipLibCheck": true
+    "strict": true,
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   },
   "include": ["src"]
 }
